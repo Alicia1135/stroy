@@ -1,0 +1,24 @@
+{
+  "name": "stroy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "main": "ts-node ./scripts/main.ts",
+    "create-collection": "ts-node ./scripts/utils/createCollection.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@pinata/sdk": "^2.1.0",
+    "@story-protocol/core-sdk": "^1.2.0-rc.3",
+    "dotenv": "^16.4.7",
+    "openai": "^4.76.3",
+    "ts-node": "^10.9.2",
+    "viem": "^2.21.55"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
