@@ -13,4 +13,4 @@ const config: StoryConfig = {
 }
 export const client = StoryClient.newClient(config)
 
-export const createNFTCollectionAddress = '0x537135Bbd88515777b66c49B292aB3B00Bfd578F'
+export const createNFTCollectionAddress = ''
