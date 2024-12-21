@@ -22,7 +22,7 @@ async function main() {
   console.log(image.data[0].url) // the url to the newly created image
 
   const ipMetadata: IpMetadata = client.ipAsset.generateIpMetadata({
-    title: 'Dall-E 2 Image',
+    title: 'Dall-E 2',
     description: '',
     ipType: 'image',
     attributes: [
