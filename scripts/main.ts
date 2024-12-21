@@ -16,7 +16,7 @@ const openai = new OpenAI({
 async function main() {
   const image = await openai.images.generate({ 
     model: 'dall-e-2', 
-    prompt: 'Raining Glasses on an island' 
+    prompt: 'A cut Baby Cat' 
   });
   
   console.log(image.data[0].url) // the url to the newly created image
@@ -32,12 +32,12 @@ async function main() {
       },
       {
         key: 'Prompt',
-        value: 'Raining Glasses on an island',
+        value: 'A cut baby cat',
       },
     ],
     creators: [
       {
-        name: 'Alimi Emmanuel',
+        name: 'Jacob Tucker',
         contributionPercent: 100,
         address: account.address,
       },
@@ -55,7 +55,7 @@ async function main() {
       },
       {
         key: 'Prompt',
-        value: 'Raining Glasses on an island',
+        value: 'A cut Baby cat',
       },
     ],
   }
